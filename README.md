@@ -2,6 +2,10 @@
 
 Open source design for demo purposes of Iphone push notification made only with pure css.
 
+<h1>Example</h1>
+
+![alt tag](https://github.com/fifoosid/Iphone-design-css-only/blob/master/Screenshot.png "Description goes here")
+
 <h1>Options</h1>
 <p>
   <ul>
