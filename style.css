@@ -1,0 +1,166 @@
+.iphone {
+    width: 375px;
+    height: 667px;
+    background-color: white;
+    margin: 2em auto 0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+
+    background: url('https://i.pinimg.com/736x/93/63/ba/9363bac18428b694f52a34e113c72e6b--iphone-backgrounds-desktop-wallpapers.jpg');/*customize background*/
+}
+
+.dots {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.dot {
+    background: url('./dot.png') center center no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px
+}
+.dots > div {
+    margin-left: -3px;
+}
+
+.notifications-panel {
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.wifi-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wifi {
+    background: url('./wifi.png') center center no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.battery {
+    background: url('./battery (2).png') center center no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.clock {
+    font-weight: 700;
+
+}
+
+.battery-percent {
+    font-weight: 500;
+    margin-top: -1px;
+    font-size: 11px;
+}
+
+.baterry-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.notification-wrapper {
+    width: 95%;
+    height: 4.5em;
+    border-radius: 10px;
+    margin: 10em auto;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header {
+    background-color: white;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgb(0, 122, 255);
+    font-weight: 600;
+}
+
+.time {
+    font-size: 13px;
+}
+
+.header-text {
+    
+    font-size: 14px;
+}
+
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.square {
+    width: 21px;
+    height: 21px;
+    background: black;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.message {
+    background-color: #E0E0E0;
+    height: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notification-title {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.captions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
